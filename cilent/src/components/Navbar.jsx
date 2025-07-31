@@ -8,7 +8,7 @@ const Navbar = () => {
   const { user } = useUser();
   const { openSignIn } = useClerk();
   return (
-    <div className="fixed z-index w-full backdrop-blue-2xl flex justify-between items-center py-3 px-4 sm:px-32 xl:px-32 cursor-pointer">
+    <div className="fixed z-50 w-full backdrop-blue-2xl flex justify-between items-center py-3 px-4 sm:px-32 xl:px-32 cursor-pointer">
       <img
         src={assets.logo}
         alt="logo"
