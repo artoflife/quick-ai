@@ -308,7 +308,7 @@ export const removeImageObject = async (req, res) => {
 export const resumeReview = async (req, res) => {
   try {
     const { userId } = req.auth();
-    const { resume } = req.file;
+    const resume = req.file;
     const plan = req.plan;
 
     // Log input untuk debugging
